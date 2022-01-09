@@ -1,0 +1,44 @@
+*{
+  text-decoration: none;
+  box-sizing: border-box;
+  overflow: auto;
+}
+body{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background: #1134A6;
+  margin: 0px;
+  min-width: 350px;
+  min-height: 500px;
+  font-size: 100%;  
+}
+
+#app{
+  background: white;
+  min-width: 80%;
+  max-width: 80%;
+  min-height: 200px;
+}
+h1{
+  text-align: center;
+  color: #1134A6;
+}
+#jokehere{
+  background: white;
+  min-width: 80%;
+  min-height: 200px;
+  padding: 25px;
+  color: red;
+}
+
+#btn{
+  background: #6693F5;
+  color: white;
+  height: 50px;
+  border-radius: 100%;
+  display: block;
+  width: 20%;
+  margin-right: auto; margin-left: auto;
+}
